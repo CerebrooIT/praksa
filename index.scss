@@ -1,0 +1,14 @@
+$background-color_1: #b50014;
+
+.box {
+	width: 1920px;
+	height: 93px;
+	.rectangle {
+		position: fixed;
+		width: 1920px;
+		height: 93px;
+		top: 0;
+		left: 0;
+		background-color: $background-color_1;
+	}
+}
