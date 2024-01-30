@@ -124,7 +124,7 @@ ul li a {
   display: block;
 }
 .second-page .image-container .big-image {
-  background-image: url("slike/hrana1.png");
+  background-image: url("../slike/hrana1.png");
   background-repeat: no-repeat;
   width: 100%;
   height: 80%;
