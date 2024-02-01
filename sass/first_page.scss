@@ -1,0 +1,102 @@
+$color_1: #ffffff;
+$color_2: gray;
+$color_3: white;
+$background-color_1: rgba(0, 0, 0, 0.5);
+$background-color_2: black;
+$background-color_3: white;
+$background-color_4: #b50014;
+
+.first-page {
+  height: calc(80vh - 75px);
+  width: 100%;
+  display: flex;
+  .text-container {
+    background-color: $background-color_1;
+    width: 500px;
+    height: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 40px 40px 40px 200px;
+    position: absolute;
+    z-index: 5;
+    top: calc(50% - 75px);
+    h1 {
+      color: $color_1;
+    }
+    p {
+      color: $color_2;
+      margin-top: 12px;
+    }
+  }
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  .swiper-wrapper {
+    width: 100%;
+    height: 100%;
+    .swiper-slide {
+      width: 100%;
+      height: 100%;
+      img {
+        width: 100vw;
+        height: 100%;
+      }
+    }
+  }
+}
+.swiper-btn {
+  position: absolute;
+  bottom: 50px;
+  right: 50%;
+  z-index: 5;
+  width: 100%;
+  height: fit-content;
+  .swiper-button-next {
+    left: 106%;
+    border-radius: 100%;
+    background-color: $background-color_2;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: $color_3;
+    font-size: 10%;
+    border: 1px solid white;
+    --swiper-navigation-size: 15px;
+  }
+  .swiper-button-prev {
+    left: 95%;
+    border-radius: 100%;
+    background-color: $background-color_2;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: $color_3;
+    font-size: 10%;
+    border: 1px solid white;
+    --swiper-navigation-size: 15px;
+  }
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    left: 52%;
+    width: 100%;
+    bottom: -20px;
+    transform: rotate(180deg);
+  }
+  .swiper-pagination-bullet {
+    background-color: $background-color_3;
+    opacity: 1;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: $background-color_4;
+    border: 1px solid white;
+  }
+}
+@media (max-width: 1100px) {
+  .first-page {
+    height: 45vh;
+  }
+  .hide-on-small {
+    display: none;
+  }
+}

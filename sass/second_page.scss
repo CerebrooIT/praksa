@@ -1,0 +1,207 @@
+$color_1: white;
+$color_2: lightgray;
+$color_3: #ffffff;
+$color_4: #b50014;
+$background-color_1: black;
+$background-color_2: #b50014;
+$background-color_3: ghostwhite;
+
+/* SECOND PAGE FIRST TEXT */
+/* ------- END ------- */
+/* SECOND PAGE IMAGE DIV's */
+/* ------- END ------- */
+/* SECOND_PAGE FINAL TEXT */
+/* ------- END ------- */
+/* SECOND PAGE BUTTONS */
+/* ------- END ------- */
+.second-page {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  width: 100%;
+  height: 700px;
+  background-color: $background-color_1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.second-page-child {
+  color: $color_1;
+  height: 100%;
+  width: 50%;
+}
+.second-page-child.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-page-text-container {
+  flex-direction: column;
+  width: 70%;
+  p {
+    color: $color_2;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  h1 {
+    margin-bottom: 5px;
+    font-size: 32px;
+  }
+  h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 50px;
+  margin-top: 60px;
+  a {
+    text-decoration: none;
+    border-radius: 24px;
+    border: 1px solid white;
+    background-color: $background-color_2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 50px;
+    color: $color_3;
+    transition: 300ms background-color ease-in-out, 300ms color ease-in-out,
+      300ms border ease-in-out, 300ms font-size ease-in-out;
+    &:hover {
+      background-color: $background-color_3;
+      color: $color_4;
+      border: 1px solid #cc061c;
+      font-size: 20px;
+    }
+  }
+}
+.second-page-images {
+  width: 65%;
+  height: 100%;
+  display: block;
+}
+.big-image {
+  height: 66.6%;
+}
+.small-images-container {
+  display: flex;
+  img {
+    width: 33.3%;
+  }
+}
+@media (min-width: 1100px) {
+  .hide-on-big {
+    display: none;
+  }
+}
+@media (max-width: 1100px) {
+  .hide {
+    display: none;
+  }
+  .second-page {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    height: 100%;
+    padding: 16px;
+  }
+  .second-page-child {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: $color_1;
+    height: 100%;
+    width: 100%;
+  }
+  .second-page-text-container {
+    p {
+      margin-top: 10px;
+      padding-bottom: 3px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      font-size: 16px;
+      text-align: center;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 90%;
+    h1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      font-size: 32px;
+    }
+    h2 {
+      font-size: 22px;
+    }
+  }
+  .second-page-images {
+    width: 90%;
+    height: content-box;
+    display: block;
+  }
+  .big-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 100%;
+    }
+  }
+  .small-images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 33.3%;
+    }
+  }
+  h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+    padding: 0;
+    a {
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 30px;
+      border: 1px solid white;
+      background-color: $background-color_2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 49%;
+      height: 60px;
+      color: $color_3;
+      transition: 300ms background-color ease-in-out, 300ms color ease-in-out,
+        300ms border ease-in-out, 300ms font-size ease-in-out;
+      &:hover {
+        background-color: $background-color_3;
+        color: $color_4;
+        border: 1px solid #cc061c;
+        font-size: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,205 @@
+/* SECOND PAGE FIRST TEXT */
+/* ------- END ------- */
+/* SECOND PAGE IMAGE DIV's */
+/* ------- END ------- */
+/* SECOND_PAGE FINAL TEXT */
+/* ------- END ------- */
+/* SECOND PAGE BUTTONS */
+/* ------- END ------- */
+.second-page {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  width: 100%;
+  height: 700px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-page-child {
+  color: white;
+  height: 100%;
+  width: 50%;
+}
+
+.second-page-child.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-page-text-container {
+  flex-direction: column;
+  width: 70%;
+}
+.second-page-text-container p {
+  color: lightgray;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+.second-page-text-container h1 {
+  margin-bottom: 5px;
+  font-size: 32px;
+}
+.second-page-text-container h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 50px;
+  margin-top: 60px;
+}
+.button-container a {
+  text-decoration: none;
+  border-radius: 24px;
+  border: 1px solid white;
+  background-color: #b50014;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 50px;
+  color: #ffffff;
+  transition: 300ms background-color ease-in-out, 300ms color ease-in-out, 300ms border ease-in-out, 300ms font-size ease-in-out;
+}
+.button-container a:hover {
+  background-color: ghostwhite;
+  color: #b50014;
+  border: 1px solid #cc061c;
+  font-size: 20px;
+}
+
+.second-page-images {
+  width: 65%;
+  height: 100%;
+  display: block;
+}
+
+.big-image {
+  height: 66.6%;
+}
+
+.small-images-container {
+  display: flex;
+}
+.small-images-container img {
+  width: 33.3%;
+}
+
+@media (min-width: 1100px) {
+  .hide-on-big {
+    display: none;
+  }
+}
+@media (max-width: 1100px) {
+  .hide {
+    display: none;
+  }
+  .second-page {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    height: 100%;
+    padding: 16px;
+  }
+  .second-page-child {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    height: 100%;
+    width: 100%;
+  }
+  .second-page-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .second-page-text-container p {
+    margin-top: 10px;
+    padding-bottom: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+  }
+  .second-page-text-container h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 32px;
+  }
+  .second-page-text-container h2 {
+    font-size: 22px;
+  }
+  .second-page-images {
+    width: 90%;
+    height: content-box;
+    display: block;
+  }
+  .big-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .big-image img {
+    width: 100%;
+  }
+  .small-images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .small-images-container img {
+    width: 33.3%;
+  }
+  h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+    padding: 0;
+  }
+  .button-container a {
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: #b50014;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    height: 60px;
+    color: #ffffff;
+    transition: 300ms background-color ease-in-out, 300ms color ease-in-out, 300ms border ease-in-out, 300ms font-size ease-in-out;
+  }
+  .button-container a:hover {
+    background-color: ghostwhite;
+    color: #b50014;
+    border: 1px solid #cc061c;
+    font-size: 20px;
+  }
+}

@@ -6,43 +6,75 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
     />
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/first_page.css" />
+    <link rel="stylesheet" href="./css/second_page.css" />
+    <link rel="stylesheet" href="./css/third_page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
   <body>
     <nav>
       <div class="icon"><img src="slike/logo.svg" alt="Logo" /></div>
       <ul>
-        <li><a href="">Die Metzgerei</a></li>
-        <li><a href="">Dry Aged</a></li>
-        <li><a href="">Fleischversand</a></li>
-        <li><a href="">Events/Kurse</a></li>
-        <li><a href="">Partyservice</a></li>
-        <li><a href="">Tagesessen</a></li>
-        <li><a href="">Impressum</a></li>
-        <li><a href="">Kontakt</a></li>
-        <li>
-          <a href=""><i class="fa-solid fa-file-pdf"></i>download</a>
-        </li>
+        <div class="nav-divider">
+          <li class="nav-item"><a href="">Die Metzgerei</a></li>
+          <li class="nav-item"><a href="">Dry Aged</a></li>
+          <li class="nav-item"><a href="">Fleischversand</a></li>
+          <li class="nav-item"><a href="">Events/Kurse</a></li>
+          <li class="nav-item"><a href="">Partyservice</a></li>
+          <li class="nav-item"><a href="">Tagesessen</a></li>
+          <li class="nav-item"><a href="">Impressum</a></li>
+          <li class="nav-item"><a href="">Kontakt</a></li>
+        </div>
       </ul>
+      <a class="download-btn" href=""
+        ><i class="fa-solid fa-file-pdf"></i>download</a
+      >
+      <a class="toggle-nav" href="javascript:toggleNav()"
+        ><i class="fa-solid fa-bars"></i
+      ></a>
     </nav>
     <div class="nav-underline">
-      <p>
-        <i class="fa-regular fa-clock"></i> Opentime:Di.-Fr.:07:00-13:00 und
-        15:00-18:30. Sa.:07:30-12:30
-      </p>
+      <div class="nav-time">
+        <span><i class="fa-regular fa-clock"></i>Opentime:</span>
+        <span>Di.-Fr.:07:00-13:00 und 15:00-18:30. Sa.:07:30-12:30</span>
+      </div>
     </div>
     <main>
       <div class="first-page">
-        <div class="text-container">
+        <div class="text-container hide-on-small">
           <h1>Heiko Brath Metzgermeister</h1>
           <p>
             Deutsches Ipsum Dolor deserunt dissentias Grimms Märchen et. Tollit
             argumentum ius an. Pfannkuchen lobortis elaboraret per ne, nam
             Aperol Spritz probatus pertinax.
           </p>
+        </div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./slike/image14.jpg" alt="slide1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./slike/hrana1.png" alt="slide2" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./slike/hrana2.jpg" alt="slide3" />
+            </div>
+          </div>
+          <div class="swiper-btn">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
         </div>
       </div>
       <div class="second-page">
@@ -71,11 +103,26 @@
         </div>
         <div class="second-page-child">
           <div class="second-page-images">
-            <div class="big-image"></div>
+            <div class="big-image">
+              <img src="slike/hrana1.png" alt="velika slika" />
+            </div>
             <div class="small-images-container">
-              <img src="slike/hrana2.jpg" alt="" />
-              <img src="slike/hrana3.jpg" alt="" />
-              <img src="slike/hrana4.jpg" alt="" />
+              <img src="./slike/hrana2.jpg" alt="" />
+              <img src="./slike/hrana3.jpg" alt="" />
+              <img src="./slike/hrana4.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="second-page-child hide-on-big">
+          <div class="second-page-text-container">
+            <div class="text-container">
+              <h1>Heiko Brath</h1>
+              <h1>Metzgermeister</h1>
+              <p>
+                Deutsches Ipsum Dolor deserunt dissentias Grimms Märchen et.
+                Tollit argumentum ius an. Pfannkuchen lobortis elaboraret per
+                ne, nam Aperol Spritz probatus pertinax.
+              </p>
             </div>
           </div>
         </div>
@@ -85,22 +132,24 @@
           <div class="text-container">
             <h2>Buchen Sie den</h2>
             <h2>Grillkurs jetzt</h2>
-            <ul>
-              <li>professioneller Lehrer</li>
-              <li>ausgezeichneter Metzger</li>
-              <li>1 Tag</li>
-              <li>lernen Sie die Kunst des Grillens</li>
-            </ul>
+            <div class="left-half-spans">
+              <span>professioneller Lehrer</span>
+              <span>ausgezeichneter Metzger</span>
+              <span>1 Tag</span>
+              <span>lernen Sie die Kunst des Grillens</span>
+            </div>
             <div class="button-container">
               <a>Grillkurs</a>
             </div>
           </div>
         </div>
         <div class="right-half">
-          <img src="slike/third-hrana.jpg" />
+          <div class="right-half-img-cont">
+            <img src="./slike/third-hrana.jpg" />
+          </div>
         </div>
       </div>
-      <div class="forth-page">
+      <div class="forth-page" style="display: none">
         <div class="trecina-prva">
           <div class="text-container">
             <h2>Das Handwerk</h2>
@@ -124,7 +173,7 @@
           <hr class="line" />
           <div class="image-container">
             <img
-              src="slike/Group.svg"
+              src="./slike/Group.svg"
               alt="Your Image"
               class="centered-image"
             />
@@ -134,26 +183,26 @@
           <div class="small-images-f">
             <div
               class="container-overpicture-text"
-              style="background-image: url('slike/forth-hrana-1.jpg')"
+              style="background-image: url('./slike/forth-hrana-1.jpg')"
             ></div>
             <div
               class="container-overpicture-text"
-              style="background-image: url('slike/forth-hrana-2.jpg')"
+              style="background-image: url('./slike/forth-hrana-2.jpg')"
             ></div>
             <div
               class="container-overpicture-text"
-              style="background-image: url('slike/forth-hrana-3.jpg')"
+              style="background-image: url('./slike/forth-hrana-3.jpg')"
             ></div>
             <div
               class="container-overpicture-text"
-              style="background-image: url('slike/forth-hrana-4.jpg')"
+              style="background-image: url('./slike/forth-hrana-4.jpg')"
             ></div>
           </div>
         </div>
       </div>
-      <div class="fifth-page">
+      <div class="fifth-page" style="display: none">
         <div class="right-half">
-          <img src="slike/third-hrana.jpg" />
+          <img src="./slike/third-hrana.jpg" />
         </div>
         <div class="left-half">
           <div class="text-container">
@@ -174,7 +223,7 @@
           </div>
         </div>
       </div>
-      <div class="sixth-page">
+      <div class="sixth-page" style="display: none">
         <div class="text-container">
           <h2>Fleischversand</h2>
           <div class="button-container">
@@ -182,8 +231,17 @@
           </div>
         </div>
       </div>
+      <div class="seveth-page">
+        <div class="seveth-page-container">
+          <div class="content-div"></div>
+          <div class="line-container"></div>
+          <div class="content-div"></div>
+          <div class="line-cintainer"></div>
+          <div class="content-div"></div>
+        </div>
+      </div>
     </main>
-    <div class="footer">
+    <div class="footer" style="display: none">
       <div class="footer-child contact">
         <div class="contact-container">
           <p><i class="fa-solid fa-location-dot"></i>Klauprechtstraße 25</p>
@@ -209,5 +267,8 @@
       src="https://kit.fontawesome.com/7bc2133712.js"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./js/nav.js"></script>
+    <script src="./js/slider.js"></script>
   </body>
 </html>

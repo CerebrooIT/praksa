@@ -39,7 +39,7 @@ ul li a {
 }
 
 .first-page {
-  background: url("/slike/Pozadina1.png") lightgray 50% / cover no-repeat;
+  background: url("/slike/Pozadina1.png") lightgray 50%/cover no-repeat;
   height: calc(100vh - 75px);
   width: 100%;
   display: flex;
@@ -475,7 +475,7 @@ ul li a {
 }
 
 .first-page {
-  background: url("/slike/Pozadina1.png") lightgray 50% / cover no-repeat;
+  background: url("/slike/Pozadina1.png") lightgray 50%/cover no-repeat;
   height: calc(100vh - 75px);
   width: 100%;
   display: flex;
@@ -562,8 +562,7 @@ ul li a {
   width: 45%;
   height: 50px;
   color: #ffffff;
-  transition: 300ms background-color ease-in-out, 300ms color ease-in-out,
-    300ms border ease-in-out, 300ms font-size ease-in-out;
+  transition: 300ms background-color ease-in-out, 300ms color ease-in-out, 300ms border ease-in-out, 300ms font-size ease-in-out;
 }
 .button-container a:hover {
   background-color: ghostwhite;
@@ -580,7 +579,7 @@ ul li a {
 
 .big-image {
   height: 66.6%;
-  background: url("../slike/hrana1.jpg") no-repeat;
+  background: url("slike/hrana1.png") no-repeat;
 }
 
 .small-images-container {
@@ -639,8 +638,7 @@ ul li a {
   width: 45%;
   height: 50px;
   color: #b50014;
-  transition: 300ms background-color ease-in-out, 300ms color ease-in-out,
-    300ms border ease-in-out, 300ms font-size ease-in-out;
+  transition: 300ms background-color ease-in-out, 300ms color ease-in-out, 300ms border ease-in-out, 300ms font-size ease-in-out;
 }
 .left-half .text-container .button-container a:hover {
   background-color: #b50014;
@@ -837,8 +835,7 @@ ul li a {
   width: 45%;
   height: 50px;
   color: #b50014;
-  transition: 300ms background-color ease-in-out, 300ms color ease-in-out,
-    300ms border ease-in-out, 300ms font-size ease-in-out;
+  transition: 300ms background-color ease-in-out, 300ms color ease-in-out, 300ms border ease-in-out, 300ms font-size ease-in-out;
 }
 .sixth-page .text-container .button-container a:hover {
   background-color: #b50014;

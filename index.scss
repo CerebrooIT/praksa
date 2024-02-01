@@ -1,14 +1,360 @@
-$background-color_1: #b50014;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
 
-.box {
-	width: 1920px;
-	height: 93px;
-	.rectangle {
-		position: fixed;
-		width: 1920px;
-		height: 93px;
-		top: 0;
-		left: 0;
-		background-color: $background-color_1;
-	}
+.nav-underline {
+  background-color: #000000;
+}
+
+.nav-underline p {
+  color: #ffffff;
+  text-align: right;
+  padding-inline: 160px;
+}
+
+.third-page {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+}
+
+.left-half {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b50014;
+}
+
+.left-half ul {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: start;
+}
+
+.left-half .text-container h2 {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.left-half .text-container ul li {
+  color: #ffffff;
+  list-style-type: disc;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.left-half .text-container .button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  margin-top: 50px;
+  width: 200%;
+}
+
+.left-half .text-container .button-container a {
+  text-decoration: none;
+  border-radius: 24px;
+  border: 1px solid #b50014;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 50px;
+  color: #b50014;
+  transition: 300ms background-color ease-in-out, 300ms color ease-in-out,
+    300ms border ease-in-out, 300ms font-size ease-in-out;
+}
+
+.left-half .text-container .button-container a:hover {
+  background-color: #b50014;
+  color: white;
+  border: 1px solid white;
+  font-size: 20px;
+}
+
+.right-half {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-half img {
+  width: 100%;
+  height: 100%;
+}
+
+.forth-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 120vh;
+}
+
+.trecina-prva {
+  flex: 1;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.trecina-prva .text-container {
+  width: 50%;
+  height: 50px;
+  text-align: center;
+}
+
+.trecina-prva h2 {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.trecina-prva h3 {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.trecina-prva p {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.line {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 50%;
+  padding-top: 300px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.centered-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+}
+
+.trecina-druga {
+  background-color: black;
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.trecina-druga .small-images-f {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.trecina-druga .container-overpicture-text {
+  width: 250px;
+  height: 250px;
+  background-image: url("slike/hrana2.jpg");
+  background-size: cover;
+  display: flex;
+  color: white;
+  margin-right: 20px;
+}
+
+.trecina-druga .container-overpicture-text:hover {
+  zoom: 110%;
+}
+
+.trecina-druga .container-overpicture-text .text {
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(1, 0, 0, 0.5);
+}
+
+.fifth-page {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+}
+
+.fifth-page .left-half {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  text-align: center;
+}
+
+.fifth-page .left-half .text-container {
+  width: 100%;
+  text-align: left;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.fifth-page .left-half .text-container h2 {
+  width: auto;
+  font-size: 32px;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.fifth-page .left-half .text-container h3 {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.fifth-page .left-half .text-container h4 {
+  padding-bottom: 30px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.fifth-page .left-half .text-container p {
+  font-size: 15px;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.sixth-page {
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  background-image: url("slike/parallax.jpg");
+  background-color: black;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.sixth-page .text-container {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 160px;
+}
+
+.sixth-page .text-container h2 {
+  font-size: 45px;
+  color: #b50014;
+  padding-bottom: 30px;
+}
+
+.sixth-page .text-container .button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 500px;
+  padding-right: 500px;
+  width: 100%;
+}
+
+.sixth-page .text-container .button-container a {
+  text-decoration: none;
+  border-radius: 24px;
+  border: 1px solid #b50014;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 50px;
+  color: #b50014;
+  transition: 300ms background-color ease-in-out, 300ms color ease-in-out,
+    300ms border ease-in-out, 300ms font-size ease-in-out;
+}
+
+.sixth-page .text-container .button-container a:hover {
+  background-color: #b50014;
+  color: white;
+  border: 1px solid white;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #b50014;
+  width: 100%;
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-child {
+  height: 100%;
+  width: 40%;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.contact-container {
+  margin: auto;
+  height: 90px;
+  width: 300px;
+  display: block;
+}
+
+.moved {
+  padding-left: 11px;
+}
+
+.logo {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 20%;
+}
+
+.logo img {
+  height: 100%;
+}
+
+.social {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.social p a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-inline: 5px;
+}
+
+.social p a i {
+  font-size: 30px;
 }
