@@ -1,0 +1,210 @@
+$color_1: #ffffff;
+$color_2: #fff;
+$color_3: white;
+
+.fifth-page {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  .left-half {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    .text-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 80%;
+      text-align: left;
+      margin-left: 100px;
+      h2 {
+        width: 90%;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 42px;
+        color: $color_1;
+        padding-bottom: 10px;
+      }
+      h3 {
+        width: 80%;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 20px;
+        color: $color_1;
+        margin-bottom: 20px;
+      }
+      p {
+        &:nth-child(1) {
+          width: 100%;
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 24px;
+          color: $color_3;
+          padding-bottom: 25px;
+        }
+        &:nth-child(2) {
+          width: 100%;
+          font-size: 12px;
+          font-weight: 300;
+          line-height: 20px;
+          color: $color_3;
+          padding-bottom: 40px;
+        }
+      }
+    }
+    p {
+      color: $color_2;
+    }
+  }
+}
+@media (min-width: 1150px) AND (max-width: 1300px) {
+  .fifth-page {
+    .left-half {
+      .text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        text-align: left;
+        margin-left: 100px;
+        h2 {
+          width: 90%;
+          font-size: 28px;
+          font-weight: 700;
+          line-height: 42px;
+          color: $color_1;
+          padding-bottom: 10px;
+        }
+        h3 {
+          width: 80%;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 22px;
+          color: $color_1;
+          margin-bottom: 20px;
+        }
+        p {
+          &:nth-child(1) {
+            width: 100%;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 20px;
+            color: $color_1;
+            padding-bottom: 25px;
+          }
+          &:nth-child(2) {
+            width: 100%;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 20px;
+            color: $color_1;
+            padding-bottom: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1000px) AND (max-width: 1150px) {
+  .fifth-page {
+    .left-half {
+      .text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        width: 80%;
+        text-align: left;
+        margin-left: 80px;
+        h2 {
+          width: 83%;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 42px;
+          color: $color_1;
+          margin-top: 40px;
+          padding: 0;
+        }
+        h3 {
+          width: 70%;
+          font-size: 15px;
+          font-weight: 700;
+          line-height: 22px;
+          color: $color_1;
+          margin-bottom: 20px;
+          padding-bottom: 0;
+        }
+        p {
+          &:nth-child(1) {
+            width: 100%;
+            font-size: 9px;
+            font-weight: 300;
+            line-height: 17px;
+            color: $color_1;
+            padding-bottom: 25px;
+          }
+          &:nth-child(2) {
+            width: 100%;
+            font-size: 9px;
+            font-weight: 300;
+            line-height: 17px;
+            color: $color_1;
+            padding-bottom: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .fifth-page {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    .left-half {
+      height: 50%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      text-align: center;
+      .text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+        h2 {
+          width: 50%;
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 42px;
+          color: $color_1;
+          margin-bottom: 20px;
+        }
+        h3 {
+          width: 60%;
+          font-size: 22px;
+          font-weight: 700;
+          line-height: 30px;
+          color: $color_1;
+          margin-bottom: 30px;
+        }
+        p {
+          width: 80%;
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 24px;
+          color: $color_1;
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+}

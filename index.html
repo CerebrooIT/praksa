@@ -9,11 +9,17 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
     />
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/nav.css" />
     <link rel="stylesheet" href="./css/first_page.css" />
     <link rel="stylesheet" href="./css/second_page.css" />
     <link rel="stylesheet" href="./css/third_page.css" />
+    <link rel="stylesheet" href="./css/forth_page.css" />
+    <link rel="stylesheet" href="./css/fifth_page.css" />
+    <link rel="stylesheet" href="./css/sixth_page.css" />
+    <link rel="stylesheet" href="./css/seventh_page.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -38,11 +44,11 @@
       <a class="download-btn" href=""
         ><i class="fa-solid fa-file-pdf"></i>download</a
       >
-      <a class="toggle-nav" href="javascript:toggleNav()"
+      <a class="toggle-nav" onclick="toggleNav()"
         ><i class="fa-solid fa-bars"></i
       ></a>
     </nav>
-    <div class="nav-underline">
+    <div class="nav-underline-header">
       <div class="nav-time">
         <span><i class="fa-regular fa-clock"></i>Opentime:</span>
         <span>Di.-Fr.:07:00-13:00 und 15:00-18:30. Sa.:07:30-12:30</span>
@@ -58,17 +64,11 @@
             Aperol Spritz probatus pertinax.
           </p>
         </div>
-        <div class="swiper">
+        <div class="swiper firstSwiper">
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="./slike/image14.jpg" alt="slide1" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./slike/hrana1.png" alt="slide2" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./slike/hrana2.jpg" alt="slide3" />
-            </div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
           </div>
           <div class="swiper-btn">
             <div class="swiper-pagination"></div>
@@ -107,9 +107,9 @@
               <img src="slike/hrana1.png" alt="velika slika" />
             </div>
             <div class="small-images-container">
-              <img src="./slike/hrana2.jpg" alt="" />
-              <img src="./slike/hrana3.jpg" alt="" />
-              <img src="./slike/hrana4.jpg" alt="" />
+              <img src="slike/hrana2.jpg" alt="" />
+              <img src="slike/hrana3.jpg" alt="" />
+              <img src="slike/hrana4.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -144,10 +144,10 @@
           </div>
         </div>
         <div class="right-half">
-          <img src="./slike/third-hrana.jpg" />
+          <img src="slike/third-hrana.jpg" />
         </div>
       </div>
-      <div class="forth-page" style="display: none">
+      <div class="forth-page">
         <div class="trecina-prva">
           <div class="text-container">
             <h2>Das Handwerk</h2>
@@ -167,46 +167,38 @@
               nominavi id. Ohrwurm expetenda nam an, his ei Reise euismod
               assentior
             </p>
-          </div>
-          <hr class="line" />
-          <div class="image-container">
-            <img
-              src="./slike/Group.svg"
-              alt="Your Image"
-              class="centered-image"
-            />
+            <div class="button-container">
+              <a>Das Handwerk</a>
+            </div>
+            <hr class="line" />
+            <div class="image-container">
+              <img
+                src="slike/Group.svg"
+                alt="Your Image"
+                class="centered-image"
+              />
+            </div>
           </div>
         </div>
         <div class="trecina-druga image-container">
           <div class="small-images-f">
-            <div
-              class="container-overpicture-text"
-              style="background-image: url('./slike/forth-hrana-1.jpg')"
-            ></div>
-            <div
-              class="container-overpicture-text"
-              style="background-image: url('./slike/forth-hrana-2.jpg')"
-            ></div>
-            <div
-              class="container-overpicture-text"
-              style="background-image: url('./slike/forth-hrana-3.jpg')"
-            ></div>
-            <div
-              class="container-overpicture-text"
-              style="background-image: url('./slike/forth-hrana-4.jpg')"
-            ></div>
+            <div class="container-overpicture-text"></div>
+            <div class="container-overpicture-text"></div>
+            <div class="container-overpicture-text"></div>
+            <div class="container-overpicture-text"></div>
           </div>
         </div>
       </div>
-      <div class="fifth-page" style="display: none">
+      <div class="fifth-page">
         <div class="right-half">
-          <img src="./slike/third-hrana.jpg" />
+          <img src="slike/third-hrana.jpg" />
         </div>
         <div class="left-half">
           <div class="text-container">
             <h2>Custome spices for your meat</h2>
-            <h3>Turnbeutel nostrud exercitation ullamco</h3>
-            <h4>Sprechen Sie deutsch</h4>
+            <h3>
+              Turnbeutel nostrud exercitation ullamco Sprechen Sie deutsch
+            </h3>
             <p>
               Odio principes iracundia Müller Rice pri. Ut vel solum mandamus,
               Kartoffelkopf natum adversarium ei ius, diam Schmetterling
@@ -221,11 +213,11 @@
           </div>
         </div>
       </div>
-      <div class="sixth-page" style="display: none">
+      <div class="sixth-page">
         <div class="text-container">
-          <h2>Fleischversand</h2>
           <div class="button-container">
-            <a href=""><b>Grillkurs</b></a>
+            <h2>Fleischversand</h2>
+            <a href=""><b>Jetzt bestellen</b></a>
           </div>
         </div>
       </div>
@@ -238,8 +230,108 @@
           <div class="content-div"></div>
         </div>
       </div>
+      <div class="seventh_page">
+        <div class="general-div">
+          <div class="first">
+            <div class="first-first">
+              <div class="halfs">
+                <img src="slike/Group%20458.png" alt="logo" />
+              </div>
+              <div class="halfs">
+                <h2>Metzgerei Brath ist Mitglied im Genussnetzwerk</h2>
+                <a href="">Gehen zu site</a>
+              </div>
+            </div>
+            <hr class="line" />
+            <div class="image-container">
+              <img
+                src="slike/Group.svg"
+                alt="Your Image"
+                class="centered-image"
+              />
+            </div>
+          </div>
+          <div class="second">
+            <div class="first-first">
+              <div class="half">
+                <h2>Auszeichnungen</h2>
+              </div>
+              <div class="halfs">
+                <img src="slike/nagrada1.png" alt="nagrada1" />
+                <p>Tollit argumentum genau Saepe lobortis</p>
+              </div>
+              <div class="halfs">
+                <img src="slike/nagrada2.png" alt="nagrada2" />
+                <p>Schneewittchen denique</p>
+              </div>
+              <div class="halfs">
+                <img src="slike/nagrada3.png" alt="nagrada3" />
+                <p>Grimms Märchen expetenda</p>
+              </div>
+              <div class="halfs">
+                <img src="slike/nagrada4.png" alt="nagrada4" />
+                <p>Mettwurst mei ullum gloriatur.</p>
+              </div>
+            </div>
+            <hr class="line" />
+            <div class="image-container">
+              <img
+                src="slike/Group.svg"
+                alt="Your Image"
+                class="centered-image"
+              />
+            </div>
+          </div>
+          <div class="third">
+            <div class="first-three">
+              <p>Empfehlungs</p>
+              <h2>Was die Leute über uns sagen</h2>
+            </div>
+            <div class="second-three">
+              <div class="swiper secondSwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <p>
+                      Sprechen Sie deutsch aliquip ex ea commodo consequat.
+                      Wiener Schnitzel aute irure dolor in reprehenderit Guten
+                      Tag mollit anim Stuttgart.
+                    </p>
+                    <p>Maria Kartofeln</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./slike/grillkurs_icon.png" />
+                    <img src="./slike/zvezdice.png" />
+                    <p>
+                      Wiener Schnitzel amet, consectetur Handtasche elit, sed do
+                      eiusmod tempor Stuttgart ut labore et dolore magna
+                      Luftballons Ut Turnbeutel nostrud exercitation ullamco .
+                    </p>
+                    <p>Halling Tobias</p>
+                    <p>Koch</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <p>
+                      Achtung fur atine indoctum complectitur HugoClub Mate mea
+                      meliore denique nominavi id. Ohrwurm expetenda nam an, his
+                      ei Reise euismod assentior.
+                    </p>
+                    <p>Rene Weinstein</p>
+                  </div>
+                </div>
+                <div class="swiper-btn">
+                  <div class="child swiper-button-prev"></div>
+                  <div class="child swiper-button-next"></div>
+                </div>
+              </div>
+            </div>
+            <div class="first-three">
+              <a href="">Alle Berichte</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-    <div class="footer" style="display: none">
+    <div class="footer">
       <div class="footer-child contact">
         <div class="contact-container">
           <p><i class="fa-solid fa-location-dot"></i>Klauprechtstraße 25</p>
@@ -252,21 +344,38 @@
         <img src="slike/logo.svg" alt="footer-icon" />
       </div>
       <div class="footer-child social">
-        <p>
-          Besuchen Sie uns auf:
-          <a href=""><i class="fa-brands fa-twitter"></i></a>
-          <a href=""><i class="fa-brands fa-facebook"></i></a>
-          <a href=""><i class="fa-brands fa-instagram"></i></a>
-          <a href=""><i class="fa-brands fa-youtube"></i></a>
-        </p>
+        <p>Besuchen Sie uns auf:</p>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
       </div>
     </div>
+    <div class="nav-underline-footer">
+      <div class="nav-underline-footer-div">
+        <p>© 2020 by Metzgerei Heiko Brath GmbH, Deutschland</p>
+        <p></p>
+        <p>Code and design by <span>StudioPresent</span></p>
+      </div>
+    </div>
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span id="closePopup" class="close">&times;</span>
+        <!-- Close icon -->
+        <h2>Welcome to our website!</h2>
+      </div>
+    </div>
+
+    <div id="overlay" class="overlay"></div>
     <script
       src="https://kit.fontawesome.com/7bc2133712.js"
       crossorigin="anonymous"
     ></script>
 
-    <script src="./js/nav.js"></script>
-    <script src="./js/slider.js"></script>
+    <script src="scripts/nav.js"></script>
+    <script src="scripts/slider.js"></script>
+    <script src="scripts/first_page.js"></script>
+    <script src="scripts/second_page.js"></script>
+    <script src="scripts/popup.js"></script>
   </body>
 </html>
