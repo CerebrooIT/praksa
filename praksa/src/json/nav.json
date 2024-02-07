@@ -1,0 +1,12 @@
+{
+  "navItems": [
+    { "text": "Die Metzgerei", "href": "" },
+    { "text": "Dry Aged", "href": "" },
+    { "text": "Fleischversand", "href": "" },
+    { "text": "Events/Kurse", "href": "" },
+    { "text": "Partyservice", "href": "" },
+    { "text": "Tagesessen", "href": "" },
+    { "text": "Impressum", "href": "" },
+    { "text": "Kontakt", "href": "" }
+  ]
+}
