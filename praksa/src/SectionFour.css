@@ -1,0 +1,170 @@
+.forth-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.trecina-prva {
+  height: 50%;
+  flex: 1;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+  padding-top: 50px;
+}
+.trecina-prva .text-container {
+  width: 65%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.trecina-prva h2 {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.trecina-prva h3 {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25.78px;
+}
+.trecina-prva p {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.trecina-prva .button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.trecina-prva .button-container a {
+  width: 174px;
+  height: 47px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 20px;
+}
+
+.line {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  margin-top: 110px;
+  padding: 0;
+}
+
+.image-container {
+  position: relative;
+  z-index: 2;
+}
+
+.centered-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+}
+
+.trecina-druga {
+  background-color: black;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  z-index: -1;
+}
+.trecina-druga .image-container {
+  width: 100%;
+}
+.trecina-druga .small-images-f {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.trecina-druga .container-overpicture-text {
+  width: 220px;
+  height: 220px;
+  background-size: cover;
+  display: flex;
+  color: white;
+  margin: 4px;
+  flex-wrap: wrap;
+}
+.trecina-druga .container-overpicture-text {
+  width: fit-content;
+  height: fit-content;
+  margin: 4px;
+  display: flex;
+}
+/* .trecina-druga .container-overpicture-text:nth-child(2) {
+  width: 220px;
+  height: 220px;
+  background-size: cover;
+  display: flex;
+  color: white;
+  margin: 4px;
+}
+.trecina-druga .container-overpicture-text:nth-child(3) {
+  width: 220px;
+  height: 220px;
+  background-size: cover;
+  display: flex;
+  color: white;
+  margin: 4px;
+}
+.trecina-druga .container-overpicture-text:nth-child(4) {
+  width: 220px;
+  height: 220px;
+  background-size: cover;
+  display: flex;
+  color: white;
+  margin: 4px;
+} */
+.trecina-druga .container-overpicture-text:hover {
+  zoom: 110%;
+}
+.trecina-druga .container-overpicture-text .text {
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(1, 0, 0, 0.5);
+}
+
+@media (min-width: 1000px) {
+  .trecina-druga .container-overpicture-text {
+    width: 220px;
+    height: 220px;
+    min-height: min-content;
+    min-width: min-content;
+    /* background-image: url("./assets/forth-hrana-1.jpg"); */
+    background-size: cover;
+    display: flex;
+    color: white;
+    margin: 4px;
+  }
+}
