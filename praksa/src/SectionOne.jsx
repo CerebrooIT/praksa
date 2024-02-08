@@ -4,8 +4,6 @@ import { Navigation, Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// SwiperCore.use([Navigation, Pagination]);
-
 function SectionOne() {
   return (
     <>

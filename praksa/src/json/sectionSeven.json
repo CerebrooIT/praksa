@@ -1,0 +1,40 @@
+{
+  "awards": [
+    {
+      "image": "/src/assets/nagrada1.png",
+      "text": "Tollit argumentum genau Saepe lobortis"
+    },
+    {
+      "image": "/src/assets/nagrada2.png",
+      "text": "Schneewittchen denique"
+    },
+    {
+      "image": "/src/assets/nagrada3.png",
+      "text": "Grimms Märchen expetenda"
+    },
+    {
+      "image": "src/assets/nagrada4.png",
+      "text": "Mettwurst mei ullum gloriatur."
+    }
+  ],
+
+  "comments": [
+    {
+      "text": "Sprechen Sie deutsch aliquip ex ea commodo consequat. Wiener Schnitzel aute irure dolor in reprehenderit Guten Tag mollit anim Stuttgart.",
+      "author": "Maria Kartofeln"
+    },
+    {
+      "images": [
+        "/src/assets/grillkurs_icon.png",
+        "/src/assets/slike/zvezdice.png"
+      ],
+      "text": "Wiener Schnitzel amet, consectetur Handtasche elit, sed do eiusmod tempor Stuttgart ut labore et dolore magna Luftballons Ut Turnbeutel nostrud exercitation ullamco .",
+      "author": "Halling Tobias",
+      "profession": "Koch"
+    },
+    {
+      "text": "Achtung fur atine indoctum complectitur HugoClub Mate mea meliore denique nominavi id. Ohrwurm expetenda nam an, his ei Reise euismod assentior.",
+      "author": "Rene Weinstein"
+    }
+  ]
+}

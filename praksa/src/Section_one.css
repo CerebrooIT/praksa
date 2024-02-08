@@ -65,13 +65,10 @@ a {
     z-index: 1;
   }
 
-  .swiper-button-prev {
+  .firstSwiper .swiper-button-prev {
     margin-left: 41%;
     position: absolute;
-    top: var(--swiper-navigation-top-offset, 90%) !important;
-    width: calc(var(--swiper-navigation-size) / 44 * 27);
-    height: var(--swiper-navigation-size);
-    margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+    top: var(--swiper-navigation-top-offset, 91%) !important;
     z-index: 10;
     cursor: pointer;
     display: flex;
@@ -81,14 +78,14 @@ a {
     opacity: 1 !important;
     border-radius: 50%;
     border: 1px solid white;
-    width: 50px !important;
-    height: 50px !important;
+    width: 37px !important;
+    height: 37px !important;
     text-align: center;
   }
-  .swiper-button-next {
+  .firstSwiper .swiper-button-next {
     margin-right: 41%;
     position: absolute;
-    top: var(--swiper-navigation-top-offset, 90%) !important;
+    top: var(--swiper-navigation-top-offset, 91%) !important;
     z-index: 10;
     cursor: pointer;
     display: flex;
@@ -98,27 +95,27 @@ a {
     opacity: 1 !important;
     border-radius: 50%;
     border: 1px solid white;
-    width: 50px !important;
-    height: 50px !important;
+    width: 37px !important;
+    height: 37px !important;
     text-align: center;
   }
-  .swiper-pagination-fraction,
-  .swiper-pagination-custom,
-  .swiper-horizontal > .swiper-pagination-bullets,
-  .swiper-pagination-bullets.swiper-pagination-horizontal {
-    bottom: 7.5% !important;
+  .firstSwiper .swiper-pagination-fraction,
+  .firstSwiper .swiper-pagination-custom,
+  .firstSwiper .swiper-horizontal > .firstSwiper .swiper-pagination-bullets,
+  .firstSwiper .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 5% !important;
     top: var(--swiper-pagination-top, auto);
     left: 0;
     width: 100%;
     margin: 0 auto;
     --swiper-pagination-color: #b50014;
-    --swiper-pagination-size: 10px !important;
+    --swiper-pagination-size: 4px !important;
   }
-  .swiper-pagination-bullet {
-    width: 12.5px !important;
-    height: 12.5px !important;
+  .firstSwiper .swiper-pagination-bullet {
+    width: 11.5px !important;
+    height: 11.5px !important;
   }
-  .swiper-pagination-clickable .swiper-pagination-bullet {
+  .firstSwiper .swiper-pagination-clickable .swiper-pagination-bullet {
     cursor: pointer;
     border: 1px solid white !important;
   }
@@ -132,13 +129,13 @@ a {
   .hide-on-small {
     display: none;
   }
-  .swiper-pagination {
+  .firstSwiper .swiper-pagination {
     display: none;
   }
-  .swiper-button-prev,
-  .swiper-button-next,
-  .swiper-button-next:after,
-  .swiper-button-prev::after {
+  .firstSwiper .swiper-button-prev,
+  .firstSwiper .swiper-button-next,
+  .firstSwiper .swiper-button-next:after,
+  .firstSwiper .swiper-button-prev::after {
     display: none;
   }
 }
@@ -151,10 +148,10 @@ a {
     height: 250px;
     padding: 40px 40px 40px 100px;
   }
-  .swiper-button-prev {
-    margin-left: 41%;
+  .firstSwiper .swiper-button-prev {
+    margin-left: 43%;
     position: absolute;
-    top: var(--swiper-navigation-top-offset, 90%) !important;
+    top: var(--swiper-navigation-top-offset, 92.7%) !important;
     z-index: 10;
     cursor: pointer;
     display: flex;
@@ -169,10 +166,10 @@ a {
     height: 30px !important;
     text-align: center;
   }
-  .swiper-button-next {
-    margin-right: 41%;
+  .firstSwiper .swiper-button-next {
+    margin-right: 43%;
     position: absolute;
-    top: var(--swiper-navigation-top-offset, 90%) !important;
+    top: var(--swiper-navigation-top-offset, 92.7%) !important;
     z-index: 10;
     cursor: pointer;
     display: flex;
@@ -187,21 +184,21 @@ a {
     height: 30px !important;
     text-align: center;
   }
-  .swiper-pagination-fraction,
-  .swiper-pagination-custom,
-  .swiper-horizontal > .swiper-pagination-bullets,
-  .swiper-pagination-bullets.swiper-pagination-horizontal {
-    bottom: 7.5% !important;
+  .firstSwiper .swiper-pagination-fraction,
+  .firstSwiper .swiper-pagination-custom,
+  .firstSwiper .swiper-horizontal > .swiper-pagination-bullets,
+  .firstSwiper .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 5% !important;
     top: var(--swiper-pagination-top, auto);
     left: 0;
     width: 100%;
     margin: 0 auto;
     --swiper-pagination-color: #b50014;
-    --swiper-pagination-size: 5px !important;
+    --swiper-pagination-size: 4px !important;
   }
   .swiper-pagination-bullet {
-    width: 9.5px !important;
-    height: 9.5px !important;
+    width: 8.5px !important;
+    height: 8.5px !important;
   }
   .swiper-pagination-clickable .swiper-pagination-bullet {
     cursor: pointer;

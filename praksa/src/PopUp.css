@@ -1,0 +1,48 @@
+.popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #b50014;
+  padding: 20px;
+  border-top: 1px solid #b50014;
+  z-index: 999;
+}
+
+.popup.show {
+  width: 100%;
+  display: flex; /* Use flexbox to center content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.popup.show h2 {
+  width: 95%;
+}
+
+.popup-content {
+  width: 100%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  text-align: center;
+}
+
+.close {
+  width: 5%;
+  cursor: pointer;
+  font-size: 80px;
+  text-align: end;
+  margin-right: 10px;
+}
+
+.close:hover {
+  color: black;
+}
+.no-scroll {
+  overflow: hidden;
+}
