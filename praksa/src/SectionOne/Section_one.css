@@ -20,8 +20,13 @@ a {
 }
 .first-page .text-container h1 {
   color: #ffffff;
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 30px;
 }
 .first-page .text-container p {
+  width: 100%;
+  padding-left: 20px;
   color: white;
   margin-top: 12px;
   font-weight: 300;
@@ -144,9 +149,9 @@ a {
     height: 70vh;
   }
   .first-page .text-container {
-    width: 400px;
-    height: 250px;
-    padding: 40px 40px 40px 100px;
+    width: 629px;
+    height: 348px;
+    padding: 40px 40px 20px 200px;
   }
   .firstSwiper .swiper-button-prev {
     margin-left: 43%;
@@ -203,5 +208,68 @@ a {
   .swiper-pagination-clickable .swiper-pagination-bullet {
     cursor: pointer;
     border: 1px solid white !important;
+  }
+}
+@media (max-width: 1800px) {
+  .first-page .text-container {
+    width: 600px;
+    height: 350px;
+  }
+  .first-page .text-container h1 {
+    padding-left: 20px;
+    padding-top: 40px;
+  }
+}
+@media (max-width: 1700px) {
+  .first-page .text-container {
+    width: 550px;
+    height: 350px;
+  }
+  .first-page .text-container h1 {
+    padding-left: 20px;
+    padding-top: 40px;
+  }
+}
+@media (max-width: 1600px) {
+  .first-page .text-container {
+    width: 500px;
+    height: 320px;
+  }
+  .first-page .text-container h1 {
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+}
+@media (max-width: 1500px) {
+  .first-page .text-container {
+    width: 450px;
+    height: 320px;
+    padding: 40px 40px 40px 150px;
+  }
+  .first-page .text-container h1 {
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+}
+@media (max-width: 1400px) {
+  .first-page .text-container {
+    width: 420px;
+    height: 320px;
+    padding: 40px 40px 40px 120px;
+  }
+  .first-page .text-container h1 {
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+}
+@media (max-width: 1300px) {
+  .first-page .text-container {
+    width: 400px;
+    height: 320px;
+    padding: 40px 40px 40px 120px;
+  }
+  .first-page .text-container h1 {
+    padding-left: 20px;
+    padding-top: 10px;
   }
 }
