@@ -1,6 +1,6 @@
 import React from "react";
 import "./SectionFive.css";
-import SecFiveImg from "./assets/third-hrana.jpg";
+import SecFiveImg from "../assets/third-hrana.jpg";
 
 function SectionFive() {
   return (

@@ -4,11 +4,3 @@
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
-.nav-underline-header {
-  background-color: #000000;
-}
-.nav-underline-header p {
-  color: #ffffff;
-  text-align: right;
-  padding-inline: 160px;
-}

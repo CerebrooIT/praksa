@@ -55,7 +55,7 @@
   margin-top: 10px;
 }
 .trecina-prva .button-container a {
-  width: 45%;
+  width: 20%;
   height: 50px;
   font-size: 16px;
   font-weight: 400;
@@ -120,30 +120,6 @@
   margin: 4px;
   display: flex;
 }
-/* .trecina-druga .container-overpicture-text:nth-child(2) {
-  width: 220px;
-  height: 220px;
-  background-size: cover;
-  display: flex;
-  color: white;
-  margin: 4px;
-}
-.trecina-druga .container-overpicture-text:nth-child(3) {
-  width: 220px;
-  height: 220px;
-  background-size: cover;
-  display: flex;
-  color: white;
-  margin: 4px;
-}
-.trecina-druga .container-overpicture-text:nth-child(4) {
-  width: 220px;
-  height: 220px;
-  background-size: cover;
-  display: flex;
-  color: white;
-  margin: 4px;
-} */
 .trecina-druga .container-overpicture-text:hover {
   zoom: 110%;
 }
@@ -164,7 +140,6 @@
     height: 220px;
     min-height: min-content;
     min-width: min-content;
-    /* background-image: url("./assets/forth-hrana-1.jpg"); */
     background-size: cover;
     display: flex;
     color: white;
@@ -176,5 +151,10 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+  }
+}
+@media (max-width: 1300px) {
+  .trecina-prva .button-container a {
+    width: 30%;
   }
 }

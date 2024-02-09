@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
 import "./SectionSeven.css";
-import Data from "./json/sectionSeven.json";
-import GroupImg from "./assets/Group.svg";
-import LogoImg from "./assets/Group_458.png";
-import SliderImgF from "./assets/grillkurs_icon.png";
-import SliderImgS from "./assets/zvezdice.png";
+import Text from "../json/text.json";
+import Images from "../json/images.json";
+import GroupImg from "../assets/Group.svg";
+import LogoImg from "../assets/Group_458.png";
+import SliderImgF from "../assets/grillkurs_icon.png";
+import SliderImgS from "../assets/zvezdice.png";
 import { Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -74,7 +75,7 @@ function SectionSeven() {
             <div className="half">
               <h2>Auszeichnungen</h2>
             </div>
-            {Data.awards.map((award, index) => (
+            {Images.awards.map((award, index) => (
               <div className="halfs" key={index}>
                 <img src={award.image} alt={`award-${index}`} />
                 <p>{award.text}</p>
@@ -92,7 +93,7 @@ function SectionSeven() {
             <h2>Was die Leute über uns sagen</h2>
           </div>
           <div className="second-three">
-            <CommentsSwiper comments={Data.comments} />
+            <CommentsSwiper comments={Text.comments_swiper} />
           </div>
           <div className="first-three">
             <a href="#">Alle Berichte</a>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./SectionThree.css";
-import ThirdPageImg from "./assets/third-hrana.jpg";
-import spanData from "./json/sectionThree.json";
+import ThirdPageImg from "../assets/third-hrana.jpg";
+import spanData from "../json/text.json";
 
 function SectionThree() {
   return (

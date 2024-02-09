@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
-import Logo from "./assets/logo.svg";
+import Logo from "../assets/logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFilePdf,
@@ -9,7 +9,7 @@ import {
   faClock,
 } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import navLinks from "./json/nav.json";
+import navLinks from "../json/nav.json";
 library.add(faFilePdf, faXmark, faBars, faClock);
 
 function Navbar() {

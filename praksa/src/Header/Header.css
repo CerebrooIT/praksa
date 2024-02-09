@@ -6,6 +6,14 @@ nav {
 .nav-divider {
   display: flex;
 }
+.nav-underline-header {
+  background-color: #000000;
+}
+.nav-underline-header p {
+  color: #ffffff;
+  text-align: right;
+  padding-inline: 160px;
+}
 
 @media (min-width: 1000px) {
   nav {

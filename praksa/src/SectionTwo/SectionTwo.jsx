@@ -1,9 +1,9 @@
 import React from "react";
 import "./SectionTwo.css";
-import BigImg from "./assets/hrana1.jpg";
-import SmlImg1 from "./assets/hrana2.jpg";
-import SmlImg2 from "./assets/hrana3.jpg";
-import SmlImg3 from "./assets/hrana4.jpg";
+import BigImg from "../assets/hrana1.jpg";
+import SmlImg1 from "../assets/hrana2.jpg";
+import SmlImg2 from "../assets/hrana3.jpg";
+import SmlImg3 from "../assets/hrana4.jpg";
 
 function SectionTwo() {
   return (

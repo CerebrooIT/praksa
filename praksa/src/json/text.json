@@ -1,24 +1,17 @@
 {
-  "awards": [
+  "contents_section_four": [
     {
-      "image": "/src/assets/nagrada1.png",
-      "text": "Tollit argumentum genau Saepe lobortis"
+      "content": "Halt amet, consectetur Handtasche elit, sed do eiusmod tempor Stuttgart ut labore et dolore magna 99 Luftballons Ut enim ad minim veniam, Turnbeutel nostrud exercitation ullamco laboris nisi Sprechen Sie deutsch aliquip ex ea commodo consequat."
     },
     {
-      "image": "/src/assets/nagrada2.png",
-      "text": "Schneewittchen denique"
+      "content": "Wiener Schnitzel aute irure dolor in Guten Tag mollit anim Stuttgart."
     },
     {
-      "image": "/src/assets/nagrada3.png",
-      "text": "Grimms Märchen expetenda"
-    },
-    {
-      "image": "src/assets/nagrada4.png",
-      "text": "Mettwurst mei ullum gloriatur."
+      "content": "id latine indoctum complectitur HugoClub Mate mea meliore denique nominavi id. Ohrwurm expetenda nam an, his ei Reise euismod assentior"
     }
   ],
 
-  "comments": [
+  "comments_swiper": [
     {
       "text": "Sprechen Sie deutsch aliquip ex ea commodo consequat. Wiener Schnitzel aute irure dolor in reprehenderit Guten Tag mollit anim Stuttgart.",
       "author": "Maria Kartofeln"
@@ -36,5 +29,11 @@
       "text": "Achtung fur atine indoctum complectitur HugoClub Mate mea meliore denique nominavi id. Ohrwurm expetenda nam an, his ei Reise euismod assentior.",
       "author": "Rene Weinstein"
     }
+  ],
+  "spans": [
+    "professioneller Lehrer",
+    "ausgezeichneter Metzger",
+    "1 Tag",
+    "lernen Sie die Kunst des Grillens"
   ]
 }
