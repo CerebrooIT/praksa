@@ -46,10 +46,9 @@ nav {
     margin-right: 12px;
   }
   ul li a {
-    font-size: 13px !important;
+    font-size: 13.5px;
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -81,7 +80,7 @@ nav {
     width: fit-content;
     align-items: center;
     height: 30px;
-    padding-left: 270px;
+    padding-left: 290px;
   }
   .nav-time span {
     width: fit-content;
@@ -106,10 +105,13 @@ nav {
     width: fit-content;
     align-items: center;
     height: 30px;
-    padding-left: 330px;
+    padding-left: 470px;
   }
   ul li {
     margin-right: 20px;
+  }
+  ul li a {
+    font-size: 16px;
   }
 }
 
@@ -144,6 +146,9 @@ nav {
     justify-content: center;
     align-items: center;
     margin-right: 2px !important;
+  }
+  ul li a {
+    font-size: 14px;
   }
 }
 @media (max-width: 1000px) {
