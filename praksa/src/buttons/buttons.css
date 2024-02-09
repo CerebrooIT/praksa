@@ -1,0 +1,92 @@
+/* RED BUTTON */
+
+.red {
+  text-decoration: none;
+  border-radius: 24px;
+  border: 1px solid white;
+  background-color: #b50014;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 174px;
+  height: 50px;
+  margin-right: 20px;
+  color: #ffffff;
+  transition: 300ms background-color ease-in-out, 300ms color ease-in-out,
+    300ms border ease-in-out, 300ms font-size ease-in-out;
+}
+.red:hover {
+  background-color: ghostwhite;
+  color: #b50014;
+  border: 1px solid #cc061c;
+  font-size: 20px;
+}
+
+/* WHITE BUTTON */
+
+.white {
+  text-decoration: none;
+  border-radius: 24px;
+  border: 1px solid #b50014;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 174px;
+  height: 50px;
+  color: #b50014;
+  transition: 300ms background-color ease-in-out, 300ms color ease-in-out,
+    300ms border ease-in-out, 300ms font-size ease-in-out;
+}
+.white:hover {
+  background-color: #b50014;
+  color: white;
+  border: 1px solid white;
+  font-size: 20px;
+}
+
+@media (max-width: 1000px) {
+  .red {
+    text-decoration: none;
+    border-radius: 24px;
+    border: 1px solid white;
+    background-color: #b50014;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 174px;
+    height: 50px;
+    margin: 0 5px;
+    color: #ffffff;
+    transition: 300ms background-color ease-in-out, 300ms color ease-in-out,
+      300ms border ease-in-out, 300ms font-size ease-in-out;
+  }
+  .red:hover {
+    background-color: ghostwhite;
+    color: #b50014;
+    border: 1px solid #cc061c;
+    font-size: 20px;
+  }
+  /* WHITE BUTTON */
+
+  .white {
+    text-decoration: none;
+    border-radius: 24px;
+    border: 1px solid #b50014;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 174px;
+    height: 50px;
+    color: #b50014;
+    transition: 300ms background-color ease-in-out, 300ms color ease-in-out,
+      300ms border ease-in-out, 300ms font-size ease-in-out;
+  }
+  .white:hover {
+    background-color: #b50014;
+    color: white;
+    border: 1px solid white;
+    font-size: 20px;
+  }
+}

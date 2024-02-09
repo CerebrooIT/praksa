@@ -36,12 +36,6 @@
   margin-top: 50px;
   width: 100%;
 }
-.left-half .text-container .button-container a:hover {
-  background-color: #b50014;
-  color: white;
-  border: 1px solid white;
-  font-size: 20px;
-}
 
 .right-half {
   flex: 1;
@@ -86,26 +80,7 @@
   .left-half .text-container h2:nth-child(2) {
     margin: 0 0 50px;
   }
-  .left-half .text-container .button-container a {
-    text-decoration: none;
-    border-radius: 24px;
-    border: 1px solid red;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 50px;
-    color: #b50014;
-    transition: 300ms background-color ease-in-out, 300ms color ease-in-out,
-      300ms border ease-in-out, 300ms font-size ease-in-out;
-  }
-  .left-half .text-container .button-container a:hover {
-    background-color: #b50014;
-    color: white;
-    border: 1px solid white;
-    font-size: 20px;
-  }
+
   .left-half .button-container {
     display: flex;
     flex-direction: column;
@@ -174,26 +149,7 @@
     margin-top: 50px;
     width: 100%;
   }
-  .left-half .text-container .button-container a {
-    text-decoration: none;
-    border-radius: 24px;
-    border: 1px solid #b50014;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 65%;
-    height: 50px;
-    color: #b50014;
-    transition: 300ms background-color ease-in-out, 300ms color ease-in-out,
-      300ms border ease-in-out, 300ms font-size ease-in-out;
-  }
-  .left-half .text-container .button-container a:hover {
-    background-color: #b50014;
-    color: white;
-    border: 1px solid white;
-    font-size: 20px;
-  }
+
   .left-half-spans {
     display: flex;
     flex-direction: column;

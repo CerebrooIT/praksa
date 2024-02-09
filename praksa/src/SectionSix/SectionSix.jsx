@@ -1,5 +1,6 @@
 import React from "react";
 import "./SectionSix.css";
+import Buttons from "../buttons/buttons.jsx";
 
 function SectionSix() {
   return (
@@ -7,9 +8,7 @@ function SectionSix() {
       <div className="text-container">
         <div className="button-container">
           <h2>Fleischversand</h2>
-          <a href="">
-            <b>Jetzt bestellen</b>
-          </a>
+          <Buttons color="white" text="Jetzt bestellen"></Buttons>
         </div>
       </div>
     </div>

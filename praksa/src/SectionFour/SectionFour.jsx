@@ -3,6 +3,7 @@ import "./SectionFour.css";
 import Logo from "../assets/Group.svg";
 import Text from "../json/text.json";
 import Images from "../json/images.json";
+import Buttons from "../buttons/buttons.jsx";
 
 function SectionFour() {
   return (
@@ -15,7 +16,7 @@ function SectionFour() {
             <p key={index}>{item.content}</p>
           ))}
           <div className="button-container">
-            <a href="#">Das Handwerk</a>
+            <Buttons color="red" text="Das Hendwerk"></Buttons>
           </div>
           <hr className="line" />
           <div className="image-container">

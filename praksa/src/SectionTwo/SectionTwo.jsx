@@ -4,6 +4,7 @@ import BigImg from "../assets/hrana1.jpg";
 import SmlImg1 from "../assets/hrana2.jpg";
 import SmlImg2 from "../assets/hrana3.jpg";
 import SmlImg3 from "../assets/hrana4.jpg";
+import Buttons from "../buttons/buttons";
 
 function SectionTwo() {
   return (
@@ -26,8 +27,8 @@ function SectionTwo() {
             assentior.
           </p>
           <div className="button-container">
-            <a href="">Dry aged</a>
-            <a href="">Alte Wurtz</a>
+            <Buttons color="red" text="Dry Aged"></Buttons>
+            <Buttons color="red" text="Alte Wurtz"></Buttons>
           </div>
         </div>
       </div>

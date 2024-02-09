@@ -84,31 +84,6 @@
     width: 70%;
     padding-bottom: 20px;
   }
-  .seventh-page .first .first-first .halfs:nth-child(2) a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    text-decoration: none;
-    color: white;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    border-radius: 42px;
-    background-color: #b50014;
-    border: 1px solid white;
-    text-align: left;
-    width: 55%;
-    height: 50px;
-    transition: 300ms background-color ease-in-out, 300ms color ease-in-out,
-      300ms border ease-in-out, 300ms font-size ease-in-out;
-  }
-  .seventh-page .first .first-first .halfs:nth-child(2) a:hover {
-    background-color: white;
-    color: #b50014;
-    border: 1px solid red;
-    font-size: 20px;
-  }
   .seventh-page .second .first-first {
     display: flex;
     justify-content: center;
@@ -180,31 +155,6 @@
     font-size: 32px;
     line-height: 42px;
   }
-  .third .first-three a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    border-radius: 42px;
-    background-color: #b50014;
-    border: 1px solid white;
-    text-align: left;
-    width: 15%;
-    height: 50px;
-    transition: 300ms background-color ease-in-out, 300ms color ease-in-out,
-      300ms border ease-in-out, 300ms font-size ease-in-out;
-    margin: 70px 0;
-  }
-  .third .first-three a:hover {
-    background-color: white;
-    color: #b50014;
-    border: 1px solid red;
-    font-size: 20px;
-  }
   .third .second-three {
     width: 100%;
     height: 100%;
@@ -217,7 +167,7 @@
     justify-content: space-between;
     align-items: center;
     transform-style: unset;
-    margin-top: 50px;
+    margin: 20px 0;
   }
   .third .second-three .swiper-slide {
     width: 100%;
@@ -401,32 +351,6 @@
     margin-top: 100px;
     margin-bottom: 50px;
   }
-  .seventh-page .first .first-first .halfs:nth-child(2) a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5px;
-    text-decoration: none;
-    color: white;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    border-radius: 42px;
-    background-color: #b50014;
-    border: 1px solid white;
-    text-align: center;
-    width: 50%;
-    height: 50px;
-    transition: 300ms background-color ease-in-out, 300ms color ease-in-out,
-      300ms border ease-in-out, 300ms font-size ease-in-out;
-  }
-  .seventh-page .first .first-first .halfs:nth-child(2) a:hover {
-    background-color: white;
-    color: #b50014;
-    border: 1px solid red;
-    font-size: 20px;
-  }
   .seventh-page .second .first-first {
     display: flex;
     justify-content: center;
@@ -504,31 +428,6 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 42px;
-  }
-  .third .first-three a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    border-radius: 42px;
-    background-color: #b50014;
-    border: 1px solid white;
-    text-align: left;
-    width: 40%;
-    height: 50px;
-    transition: 300ms background-color ease-in-out, 300ms color ease-in-out,
-      300ms border ease-in-out, 300ms font-size ease-in-out;
-    margin-bottom: 40px;
-  }
-  .third .first-three a:hover {
-    background-color: white;
-    color: #b50014;
-    border: 1px solid red;
-    font-size: 20px;
   }
   .third .second-three {
     width: 100%;
@@ -654,32 +553,5 @@
     margin-left: 28%;
     margin-right: 28%;
     top: var(--swiper-navigation-top-offset, 92%) !important;
-  }
-}
-@media (max-width: 450px) {
-  .third .first-three a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    border-radius: 42px;
-    background-color: #b50014;
-    border: 1px solid white;
-    text-align: left;
-    width: 50%;
-    height: 50px;
-    transition: 300ms background-color ease-in-out, 300ms color ease-in-out,
-      300ms border ease-in-out, 300ms font-size ease-in-out;
-    margin: 70px 0;
-  }
-  .third .first-three a:hover {
-    background-color: white;
-    color: #b50014;
-    border: 1px solid red;
-    font-size: 20px;
   }
 }

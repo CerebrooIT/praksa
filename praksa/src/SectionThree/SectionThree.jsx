@@ -2,6 +2,7 @@ import React from "react";
 import "./SectionThree.css";
 import ThirdPageImg from "../assets/third-hrana.jpg";
 import spanData from "../json/text.json";
+import Buttons from "../buttons/buttons";
 
 function SectionThree() {
   return (
@@ -17,7 +18,7 @@ function SectionThree() {
               ))}
             </div>
             <div className="button-container">
-              <a href="#">Grillkurs</a>
+              <Buttons color="white" text="Grillkus"></Buttons>
             </div>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./SectionSeven.css";
+import Buttons from "../buttons/buttons.jsx";
 import Text from "../json/text.json";
 import Images from "../json/images.json";
 import GroupImg from "../assets/Group.svg";
@@ -62,7 +63,7 @@ function SectionSeven() {
             </div>
             <div className="halfs">
               <h2>Metzgerei Brath ist Mitglied im Genussnetzwerk</h2>
-              <a href="#">Gehen zu site</a>
+              <Buttons color="red" text="Gehen zu site"></Buttons>
             </div>
           </div>
           <hr className="line" />
@@ -96,7 +97,7 @@ function SectionSeven() {
             <CommentsSwiper comments={Text.comments_swiper} />
           </div>
           <div className="first-three">
-            <a href="#">Alle Berichte</a>
+            <Buttons color="red" text="Alle Berichte"></Buttons>
           </div>
         </div>
       </div>
