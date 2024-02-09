@@ -11,6 +11,7 @@
   width: 174px;
   height: 50px;
   margin-right: 20px;
+  margin-bottom: 20px;
   color: #ffffff;
   transition: 300ms background-color ease-in-out, 300ms color ease-in-out,
     300ms border ease-in-out, 300ms font-size ease-in-out;

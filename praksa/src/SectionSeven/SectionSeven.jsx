@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import { useTheme } from "../ThemeContext";
+import "../Theme/light_dark.css";
 import "./SectionSeven.css";
 import Buttons from "../buttons/buttons.jsx";
 import Text from "../json/text.json";
@@ -53,8 +55,13 @@ const CommentsSwiper = ({ comments }) => {
 };
 
 function SectionSeven() {
+  const { isDarkMode } = useTheme();
   return (
-    <div className="seventh-page">
+    <div
+      className={
+        isDarkMode ? "light-mode seventh-page" : "dark-mode seventh-page"
+      }
+    >
       <div className="general-div">
         <div className="first">
           <div className="first-first">

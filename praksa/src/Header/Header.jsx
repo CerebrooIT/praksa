@@ -1,6 +1,9 @@
 import React, { useState } from "react";
+import { useTheme } from "../ThemeContext";
+import "../Theme/light_dark.css";
 import "./Header.css";
 import Logo from "../assets/logo.svg";
+import ToggleButton from "../buttons/toggle_button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFilePdf,
@@ -14,6 +17,7 @@ library.add(faFilePdf, faXmark, faBars, faClock);
 
 function Navbar() {
   const [isActive, setIsActive] = useState(false);
+  const { isDarkMode } = useTheme();
 
   const toggleNav = () => {
     setIsActive(!isActive);
@@ -49,15 +53,18 @@ function Navbar() {
           </i>
         </a>
       </nav>
-      <div className="nav-underline-header">
-        <div className="nav-time">
-          <span>
-            <i>
-              <FontAwesomeIcon icon={faClock} />
-            </i>
-            Opentime:
-          </span>
-          <span>Di.-Fr.:07:00-13:00 und 15:00-18:30. Sa.:07:30-12:30</span>
+      <div className={isDarkMode ? "light-mode" : "dark-mode"}>
+        <div className="under-nav">
+          <div className="nav-time">
+            <ToggleButton></ToggleButton>
+            <span>
+              <i>
+                <FontAwesomeIcon icon={faClock} />
+              </i>
+              Opentime:
+            </span>
+            <span>Di.-Fr.:07:00-13:00 und 15:00-18:30. Sa.:07:30-12:30</span>
+          </div>
         </div>
       </div>
     </>

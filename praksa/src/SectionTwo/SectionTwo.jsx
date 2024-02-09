@@ -1,4 +1,6 @@
 import React from "react";
+import { useTheme } from "../ThemeContext";
+import "../Theme/light_dark.css";
 import "./SectionTwo.css";
 import BigImg from "../assets/hrana1.jpg";
 import SmlImg1 from "../assets/hrana2.jpg";
@@ -7,8 +9,13 @@ import SmlImg3 from "../assets/hrana4.jpg";
 import Buttons from "../buttons/buttons";
 
 function SectionTwo() {
+  const { isDarkMode } = useTheme();
   return (
-    <div className="second-page">
+    <div
+      className={
+        isDarkMode ? "light-mode second-page" : "dark-mode second-page"
+      }
+    >
       <div className="second-page-child text">
         <div className="second-page-text-container">
           <h1>Dry aged</h1>

@@ -1,0 +1,46 @@
+.light-mode {
+  background-color: whitesmoke !important;
+  color: #b50014 !important;
+}
+.light-mode .centered-image {
+  background-color: #b50014;
+  border-radius: 50%;
+}
+.light-mode .secondSwiper .swiper-button-next,
+.light-mode .secondSwiper .swiper-button-prev {
+  position: absolute;
+  color: black;
+  --swiper-navigation-size: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 37px;
+  height: 37px;
+  margin-left: 28%;
+  margin-right: 28%;
+  top: var(--swiper-navigation-top-offset, 47%) !important;
+}
+
+/* dark-mode.css */
+.dark-mode {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+.dark-mode .centered-image {
+  background-color: black;
+  border-radius: 50%;
+}
+@media (max-width: 1000px) {
+  .light-mode .secondSwiper .swiper-button-next,
+  .light-mode .secondSwiper .swiper-button-prev {
+    position: absolute;
+    color: black;
+    --swiper-navigation-size: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 37px;
+    height: 37px;
+    margin-left: 28%;
+    margin-right: 28%;
+    top: var(--swiper-navigation-top-offset, 95%) !important;
+  }
+}

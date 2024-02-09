@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: black !important;
+  background-color: black;
+  color: white;
   width: 100%;
   height: fit-content;
 }
@@ -74,10 +75,8 @@
     display: flex;
     justify-content: end;
     align-items: start;
-    color: white;
   }
   .seventh-page .first .first-first .halfs:nth-child(2) h2 {
-    color: white;
     font-weight: 700;
     font-size: 32px;
     line-height: 42px;
@@ -96,7 +95,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
     margin-right: 50px;
   }
   .seventh-page .second .first-first .halfs {
@@ -109,13 +107,11 @@
     text-align: center;
   }
   .seventh-page .second .first-first .halfs p {
-    color: white;
     text-align: center;
     font-weight: 300;
     font-size: 16px;
     line-height: 18.75px;
     width: 95%;
-    color: white;
     text-align: center;
     font-weight: 300;
     font-size: 16px;
@@ -139,7 +135,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
     width: 100%;
   }
   .third .first-three p {
@@ -175,7 +170,6 @@
     background-color: #3b3b3b;
     border: 1px solid #000000;
     background-size: cover;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -189,6 +183,7 @@
     width: 80%;
     text-align: center;
     font-weight: 300;
+    color: white;
   }
   .third .second-three .swiper-slide:nth-child(1) p {
     line-height: 18px;
@@ -281,6 +276,9 @@
     margin-right: 28%;
     top: var(--swiper-navigation-top-offset, 47%) !important;
   }
+  .swiper.secondSwiper {
+    margin: 20px 0;
+  }
 }
 @media (max-width: 1000px) {
   .seventh-page .general-div .first {
@@ -342,7 +340,6 @@
     width: 100%;
   }
   .seventh-page .first .first-first .halfs:nth-child(2) h2 {
-    color: white;
     font-weight: 700;
     font-size: 32px;
     line-height: 42px;
@@ -368,7 +365,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
   }
   .seventh-page .second .first-first .halfs {
     width: 200px;
@@ -382,18 +378,12 @@
     box-sizing: border-box;
   }
   .seventh-page .second .first-first .halfs p {
-    color: white;
     text-align: center;
     font-weight: 300;
     font-size: 16px;
     line-height: 18.75px;
     width: 95%;
     width: 117px;
-    color: white;
-    text-align: center;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 18.75px;
   }
   .seventh-page .second .first-first .halfs img {
     height: 117px;
@@ -413,7 +403,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
     width: 100%;
   }
   .third .first-three p {
@@ -552,6 +541,9 @@
     height: 37px;
     margin-left: 28%;
     margin-right: 28%;
-    top: var(--swiper-navigation-top-offset, 92%) !important;
+    top: var(--swiper-navigation-top-offset, 95%) !important;
+  }
+  .swiper.secondSwiper {
+    margin: 20px 0;
   }
 }
